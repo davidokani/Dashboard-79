@@ -6,6 +6,9 @@ import Navbar from '../../components/navbar/Navbar'
 import Widget from '../../components/widget/Widget'
 import Featured from '../../components/featured/Featured'
 import Chart from '../../components/chart/Chart'
+import TableLarge from '../../components/tableLarge/TableLarge'
+import TableSmall from '../../components/tablesmall/TableSmall'
+
 
 const Home = () => {
   return (
@@ -15,13 +18,17 @@ const Home = () => {
         <Navbar />
         <div className='widgets'>
           <Widget type='user' />
-          <Widget type='order' />
+          {/* <Widget type='order' /> */}
           <Widget type='earning' />
           <Widget type='balance' />
         </div>
         <div className='charts'>
-          <Featured />
+          {/* <Featured /> */}
           <Chart />
+          <div className="homeTables">
+            <TableLarge />
+            <TableSmall />
+          </div>
         </div>
       </div>
     </div>
