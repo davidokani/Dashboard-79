@@ -1,5 +1,5 @@
-form {
-    background-color: white;
+.container {
+    background-color: black;
     justify-content: space-around;
     text-align: center;
 }
@@ -7,11 +7,18 @@ form {
 h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-    color: black;
+    color: darkblue;
+}
+
+label {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 12px;
 }
 
 button {
     font-weight: bold;
     color: white;
-    background-color: darkblue;
+    background-color: green;
 }
