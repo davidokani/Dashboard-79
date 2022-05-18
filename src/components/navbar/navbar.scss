@@ -5,6 +5,10 @@
   align-items: center;
   font-size: 14px;
   color: #555;
+  position: fixed;
+  padding-left: 1200px;
+  background-color: white;
+  z-index: 100;
 
   .wrapper {
     width: 100%;
@@ -29,6 +33,7 @@
         }
       }
     }
+
     .items {
       display: flex;
       align-items: center;
