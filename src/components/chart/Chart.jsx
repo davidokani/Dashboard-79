@@ -9,7 +9,7 @@
 
 
 import React, { PureComponent } from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 import "./chart.css"
 
@@ -19,7 +19,7 @@ export default function Chart() {
   const data = [
     {
       name: 'Jan',
-      "Acitive User": 2898,
+      "Acitive User": 1902,
     },
     {
       name: 'Feb',

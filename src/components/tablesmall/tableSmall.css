@@ -1,0 +1,16 @@
+.tablesmall {
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 100, 5);
+    position: relative;
+    left: 750px;
+    top: 140px;
+    padding: 20px;
+    margin: 2px;
+    width: 600px;
+}
+
+.tableSmTitle {
+    font-size: 30px;
+    font-weight: 600;
+}
